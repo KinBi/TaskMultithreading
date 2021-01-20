@@ -1,0 +1,62 @@
+{
+  "configuration": {
+    "name": "TaskMultithreading",
+    "properties": {
+      "property": [{
+        "name": "directory",
+        "value": "logs"
+      },
+        {
+          "name": "fileName",
+          "value": "${date:yyyy-MM-dd}.log"
+        },
+        {
+          "name": "filePattern",
+          "value": "%d{MM-dd-yyyy}.log"
+        },
+        {
+          "name": "filePatternLayout",
+          "value": "%d %-5level %logger{5} [%t] %m%n"
+        },
+        {
+          "name": "consolePatternLayout",
+          "value": "%d{HH:mm:ss.SSS} [%t] %-5level %logger{5} - %m%n"
+        }]
+    },
+    "appenders": {
+      "Console": {
+        "name": "Console",
+        "PatternLayout": {
+          "pattern": "${consolePatternLayout}"
+        }
+      },
+      "RollingFile": {
+        "name": "File",
+        "fileName": "${directory}/${fileName}",
+        "filePattern": "${filePattern}",
+        "PatternLayout": {
+          "pattern": "${filePatternLayout}"
+        },
+        "Policies": {
+          "SizeBasedTriggeringPolicy": {
+            "size": "20 KB"
+          }
+        },
+        "DefaultRolloverStrategy": {
+          "max": "10"
+        }
+      }
+    },
+    "loggers": {
+      "root": {
+        "level": "debug",
+        "appender-ref": [{
+          "ref": "Console"
+        },
+          {
+            "ref": "File"
+          }]
+      }
+    }
+  }
+}

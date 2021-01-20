@@ -1,0 +1,24 @@
+2021-01-20 21:25:52,652 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 0 connected and has 3 products
+2021-01-20 21:25:54,659 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 0 unloaded
+2021-01-20 21:25:54,660 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 0 disconnected
+2021-01-20 21:25:54,660 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 0 has 0 products now
+2021-01-20 21:25:54,661 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 4 connected and has 2 products
+2021-01-20 21:25:56,662 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 4 unloaded
+2021-01-20 21:25:56,664 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 4 disconnected
+2021-01-20 21:25:56,665 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 4 has 0 products now
+2021-01-20 21:25:56,665 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 5 connected and has 5 products
+2021-01-20 21:25:58,666 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 5 unloaded
+2021-01-20 21:25:58,666 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 5 disconnected
+2021-01-20 21:25:58,667 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 5 has 0 products now
+2021-01-20 21:25:58,667 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 6 connected and has 7 products
+2021-01-20 21:26:00,667 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 6 unloaded
+2021-01-20 21:26:00,668 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 6 disconnected
+2021-01-20 21:26:00,668 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 6 has 0 products now
+2021-01-20 21:26:00,669 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 7 connected and has 9 products
+2021-01-20 21:26:02,669 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 7 unloaded
+2021-01-20 21:26:02,669 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 7 disconnected
+2021-01-20 21:26:02,670 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 7 has 0 products now
+2021-01-20 21:26:02,670 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 8 connected and has 1 products
+2021-01-20 21:26:04,672 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 8 unloaded
+2021-01-20 21:26:04,672 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 8 disconnected
+2021-01-20 21:26:04,673 INFO  training.task.model.entity.Van [pool-2-thread-1] Van 8 has 0 products now
