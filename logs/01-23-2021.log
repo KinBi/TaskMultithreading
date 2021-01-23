@@ -1,0 +1,223 @@
+2021-01-23 17:21:50,073 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:21:52,081 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:21:52,082 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:21:52,082 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:21:52,083 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:21:54,083 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:21:54,084 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:21:54,086 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:21:54,086 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:21:56,087 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:21:56,088 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:21:56,088 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:21:56,089 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:21:58,090 INFO  training.task.model.entity.Van [main] Van 3 unloaded
+2021-01-23 17:21:58,090 INFO  training.task.model.entity.Van [main] Van 3 disconnected
+2021-01-23 17:21:58,091 INFO  training.task.model.entity.Van [main] Van 3 has 0 products now
+2021-01-23 17:21:58,091 INFO  training.task.model.entity.Van [main] Van 4 connected and has 2 products
+2021-01-23 17:22:00,092 INFO  training.task.model.entity.Van [main] Van 4 unloaded
+2021-01-23 17:22:00,093 INFO  training.task.model.entity.Van [main] Van 4 disconnected
+2021-01-23 17:22:00,093 INFO  training.task.model.entity.Van [main] Van 4 has 0 products now
+2021-01-23 17:22:00,094 INFO  training.task.model.entity.Van [main] Van 5 connected and has 5 products
+2021-01-23 17:22:02,094 INFO  training.task.model.entity.Van [main] Van 5 unloaded
+2021-01-23 17:22:02,095 INFO  training.task.model.entity.Van [main] Van 5 disconnected
+2021-01-23 17:22:02,096 INFO  training.task.model.entity.Van [main] Van 5 has 0 products now
+2021-01-23 17:22:02,096 INFO  training.task.model.entity.Van [main] Van 6 connected and has 7 products
+2021-01-23 17:22:04,098 INFO  training.task.model.entity.Van [main] Van 6 unloaded
+2021-01-23 17:22:04,099 INFO  training.task.model.entity.Van [main] Van 6 disconnected
+2021-01-23 17:22:04,100 INFO  training.task.model.entity.Van [main] Van 6 has 0 products now
+2021-01-23 17:22:04,100 INFO  training.task.model.entity.Van [main] Van 7 connected and has 9 products
+2021-01-23 17:22:06,102 INFO  training.task.model.entity.Van [main] Van 7 unloaded
+2021-01-23 17:22:06,103 INFO  training.task.model.entity.Van [main] Van 7 disconnected
+2021-01-23 17:22:06,103 INFO  training.task.model.entity.Van [main] Van 7 has 0 products now
+2021-01-23 17:22:06,104 INFO  training.task.model.entity.Van [main] Van 8 connected and has 1 products
+2021-01-23 17:22:08,105 INFO  training.task.model.entity.Van [main] Van 8 unloaded
+2021-01-23 17:22:08,106 INFO  training.task.model.entity.Van [main] Van 8 disconnected
+2021-01-23 17:22:08,106 INFO  training.task.model.entity.Van [main] Van 8 has 0 products now
+2021-01-23 17:27:02,126 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:27:04,132 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:27:04,133 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:27:04,134 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:27:04,134 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:27:06,135 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:27:06,136 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:27:06,136 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:27:06,136 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:27:08,136 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:27:08,136 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:27:08,138 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:27:08,138 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:27:10,139 INFO  training.task.model.entity.Van [main] Van 3 unloaded
+2021-01-23 17:27:10,140 INFO  training.task.model.entity.Van [main] Van 3 disconnected
+2021-01-23 17:27:10,140 INFO  training.task.model.entity.Van [main] Van 3 has 0 products now
+2021-01-23 17:27:10,140 INFO  training.task.model.entity.Van [main] Van 4 connected and has 2 products
+2021-01-23 17:27:12,141 INFO  training.task.model.entity.Van [main] Van 4 unloaded
+2021-01-23 17:27:12,142 INFO  training.task.model.entity.Van [main] Van 4 disconnected
+2021-01-23 17:27:12,142 INFO  training.task.model.entity.Van [main] Van 4 has 0 products now
+2021-01-23 17:27:12,142 INFO  training.task.model.entity.Van [main] Van 5 connected and has 5 products
+2021-01-23 17:27:14,145 INFO  training.task.model.entity.Van [main] Van 5 unloaded
+2021-01-23 17:27:14,145 INFO  training.task.model.entity.Van [main] Van 5 disconnected
+2021-01-23 17:27:14,145 INFO  training.task.model.entity.Van [main] Van 5 has 0 products now
+2021-01-23 17:27:14,146 INFO  training.task.model.entity.Van [main] Van 6 connected and has 7 products
+2021-01-23 17:27:16,147 INFO  training.task.model.entity.Van [main] Van 6 unloaded
+2021-01-23 17:27:16,148 INFO  training.task.model.entity.Van [main] Van 6 disconnected
+2021-01-23 17:27:16,149 INFO  training.task.model.entity.Van [main] Van 6 has 0 products now
+2021-01-23 17:27:16,149 INFO  training.task.model.entity.Van [main] Van 7 connected and has 9 products
+2021-01-23 17:27:18,150 INFO  training.task.model.entity.Van [main] Van 7 unloaded
+2021-01-23 17:27:18,150 INFO  training.task.model.entity.Van [main] Van 7 disconnected
+2021-01-23 17:27:18,151 INFO  training.task.model.entity.Van [main] Van 7 has 0 products now
+2021-01-23 17:27:18,151 INFO  training.task.model.entity.Van [main] Van 8 connected and has 1 products
+2021-01-23 17:27:20,153 INFO  training.task.model.entity.Van [main] Van 8 unloaded
+2021-01-23 17:27:20,153 INFO  training.task.model.entity.Van [main] Van 8 disconnected
+2021-01-23 17:27:20,153 INFO  training.task.model.entity.Van [main] Van 8 has 0 products now
+2021-01-23 17:27:39,108 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:27:41,113 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:27:41,113 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:27:41,114 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:27:41,114 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:27:43,115 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:27:43,115 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:27:43,116 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:27:43,116 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:27:45,117 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:27:45,117 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:27:45,117 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:27:45,118 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:27:47,118 INFO  training.task.model.entity.Van [main] Van 3 unloaded
+2021-01-23 17:27:47,118 INFO  training.task.model.entity.Van [main] Van 3 disconnected
+2021-01-23 17:27:47,118 INFO  training.task.model.entity.Van [main] Van 3 has 0 products now
+2021-01-23 17:27:47,119 INFO  training.task.model.entity.Van [main] Van 4 connected and has 2 products
+2021-01-23 17:27:49,119 INFO  training.task.model.entity.Van [main] Van 4 unloaded
+2021-01-23 17:27:49,120 INFO  training.task.model.entity.Van [main] Van 4 disconnected
+2021-01-23 17:27:49,120 INFO  training.task.model.entity.Van [main] Van 4 has 0 products now
+2021-01-23 17:27:49,120 INFO  training.task.model.entity.Van [main] Van 5 connected and has 5 products
+2021-01-23 17:27:51,121 INFO  training.task.model.entity.Van [main] Van 5 unloaded
+2021-01-23 17:27:51,121 INFO  training.task.model.entity.Van [main] Van 5 disconnected
+2021-01-23 17:27:51,122 INFO  training.task.model.entity.Van [main] Van 5 has 0 products now
+2021-01-23 17:27:51,122 INFO  training.task.model.entity.Van [main] Van 6 connected and has 7 products
+2021-01-23 17:40:37,349 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:40:39,356 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:40:39,356 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:40:39,357 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:40:39,357 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:40:41,358 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:40:41,359 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:40:41,359 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:40:41,359 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:40:43,360 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:40:43,360 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:40:43,361 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:40:43,362 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:40:45,362 INFO  training.task.model.entity.Van [main] Van 3 unloaded
+2021-01-23 17:40:45,363 INFO  training.task.model.entity.Van [main] Van 3 disconnected
+2021-01-23 17:40:45,363 INFO  training.task.model.entity.Van [main] Van 3 has 0 products now
+2021-01-23 17:40:45,363 INFO  training.task.model.entity.Van [main] Van 4 connected and has 2 products
+2021-01-23 17:40:47,365 INFO  training.task.model.entity.Van [main] Van 4 unloaded
+2021-01-23 17:40:47,366 INFO  training.task.model.entity.Van [main] Van 4 disconnected
+2021-01-23 17:40:47,366 INFO  training.task.model.entity.Van [main] Van 4 has 0 products now
+2021-01-23 17:40:47,367 INFO  training.task.model.entity.Van [main] Van 5 connected and has 5 products
+2021-01-23 17:40:49,367 INFO  training.task.model.entity.Van [main] Van 5 unloaded
+2021-01-23 17:40:49,367 INFO  training.task.model.entity.Van [main] Van 5 disconnected
+2021-01-23 17:40:49,368 INFO  training.task.model.entity.Van [main] Van 5 has 0 products now
+2021-01-23 17:40:49,368 INFO  training.task.model.entity.Van [main] Van 6 connected and has 7 products
+2021-01-23 17:40:51,370 INFO  training.task.model.entity.Van [main] Van 6 unloaded
+2021-01-23 17:40:51,370 INFO  training.task.model.entity.Van [main] Van 6 disconnected
+2021-01-23 17:40:51,371 INFO  training.task.model.entity.Van [main] Van 6 has 0 products now
+2021-01-23 17:40:51,371 INFO  training.task.model.entity.Van [main] Van 7 connected and has 9 products
+2021-01-23 17:40:53,374 INFO  training.task.model.entity.Van [main] Van 7 unloaded
+2021-01-23 17:40:53,374 INFO  training.task.model.entity.Van [main] Van 7 disconnected
+2021-01-23 17:40:53,375 INFO  training.task.model.entity.Van [main] Van 7 has 0 products now
+2021-01-23 17:40:53,375 INFO  training.task.model.entity.Van [main] Van 8 connected and has 1 products
+2021-01-23 17:40:55,376 INFO  training.task.model.entity.Van [main] Van 8 unloaded
+2021-01-23 17:40:55,376 INFO  training.task.model.entity.Van [main] Van 8 disconnected
+2021-01-23 17:40:55,377 INFO  training.task.model.entity.Van [main] Van 8 has 0 products now
+2021-01-23 17:44:53,238 INFO  training.task.model.entity.LogisticBase [main] 0 id 
+2021-01-23 17:44:53,245 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:44:55,249 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:44:55,250 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:44:55,250 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:44:55,250 INFO  training.task.model.entity.LogisticBase [main] 1 id 
+2021-01-23 17:44:55,251 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:44:57,251 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:44:57,252 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:44:57,252 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:44:57,253 INFO  training.task.model.entity.LogisticBase [main] 2 id 
+2021-01-23 17:44:57,253 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:44:59,254 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:44:59,254 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:44:59,256 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:44:59,256 INFO  training.task.model.entity.LogisticBase [main] 3 id 
+2021-01-23 17:44:59,256 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:51:08,246 INFO  training.task.model.entity.LogisticBase [main] 0 id 
+2021-01-23 17:51:08,251 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:51:10,252 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:51:10,252 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:51:10,253 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:51:10,253 INFO  training.task.model.entity.LogisticBase [main] 1 id 
+2021-01-23 17:51:10,254 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:51:12,255 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:51:12,255 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:51:12,256 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:51:12,256 INFO  training.task.model.entity.LogisticBase [main] 2 id 
+2021-01-23 17:51:12,257 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:51:14,257 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:51:14,257 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:51:14,258 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:51:14,258 INFO  training.task.model.entity.LogisticBase [main] 3 id 
+2021-01-23 17:51:14,259 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:51:16,259 INFO  training.task.model.entity.Van [main] Van 3 unloaded
+2021-01-23 17:51:16,259 INFO  training.task.model.entity.Van [main] Van 3 disconnected
+2021-01-23 17:51:16,260 INFO  training.task.model.entity.Van [main] Van 3 has 0 products now
+2021-01-23 17:51:16,260 INFO  training.task.model.entity.LogisticBase [main] 4 id 
+2021-01-23 17:51:16,261 INFO  training.task.model.entity.Van [main] Van 4 connected and has 2 products
+2021-01-23 17:51:18,261 INFO  training.task.model.entity.Van [main] Van 4 unloaded
+2021-01-23 17:51:18,262 INFO  training.task.model.entity.Van [main] Van 4 disconnected
+2021-01-23 17:51:18,262 INFO  training.task.model.entity.Van [main] Van 4 has 0 products now
+2021-01-23 17:51:18,263 INFO  training.task.model.entity.LogisticBase [main] 5 id 
+2021-01-23 17:51:18,263 INFO  training.task.model.entity.Van [main] Van 5 connected and has 5 products
+2021-01-23 17:51:20,265 INFO  training.task.model.entity.Van [main] Van 5 unloaded
+2021-01-23 17:51:20,266 INFO  training.task.model.entity.Van [main] Van 5 disconnected
+2021-01-23 17:51:20,266 INFO  training.task.model.entity.Van [main] Van 5 has 0 products now
+2021-01-23 17:51:20,267 INFO  training.task.model.entity.LogisticBase [main] 6 id 
+2021-01-23 17:51:20,268 INFO  training.task.model.entity.Van [main] Van 6 connected and has 7 products
+2021-01-23 17:51:22,269 INFO  training.task.model.entity.Van [main] Van 6 unloaded
+2021-01-23 17:51:22,269 INFO  training.task.model.entity.Van [main] Van 6 disconnected
+2021-01-23 17:51:22,270 INFO  training.task.model.entity.Van [main] Van 6 has 0 products now
+2021-01-23 17:51:22,270 INFO  training.task.model.entity.LogisticBase [main] 7 id 
+2021-01-23 17:51:22,271 INFO  training.task.model.entity.Van [main] Van 7 connected and has 9 products
+2021-01-23 17:51:24,272 INFO  training.task.model.entity.Van [main] Van 7 unloaded
+2021-01-23 17:51:24,272 INFO  training.task.model.entity.Van [main] Van 7 disconnected
+2021-01-23 17:51:24,273 INFO  training.task.model.entity.Van [main] Van 7 has 0 products now
+2021-01-23 17:51:24,273 INFO  training.task.model.entity.LogisticBase [main] 8 id 
+2021-01-23 17:51:24,274 INFO  training.task.model.entity.Van [main] Van 8 connected and has 1 products
+2021-01-23 17:51:26,274 INFO  training.task.model.entity.Van [main] Van 8 unloaded
+2021-01-23 17:51:26,274 INFO  training.task.model.entity.Van [main] Van 8 disconnected
+2021-01-23 17:51:26,275 INFO  training.task.model.entity.Van [main] Van 8 has 0 products now
+2021-01-23 17:51:52,373 INFO  training.task.model.entity.LogisticBase [main] 0 id 
+2021-01-23 17:51:52,381 INFO  training.task.model.entity.Van [main] Van 0 connected and has 3 products
+2021-01-23 17:51:52,383 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 17:51:52,383 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 17:51:52,383 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 17:51:52,384 INFO  training.task.model.entity.LogisticBase [main] 1 id 
+2021-01-23 17:51:52,384 INFO  training.task.model.entity.Van [main] Van 1 connected and has 5 products
+2021-01-23 17:51:52,384 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 17:51:52,385 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 17:51:52,385 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 17:51:52,385 INFO  training.task.model.entity.LogisticBase [main] 2 id 
+2021-01-23 17:51:52,385 INFO  training.task.model.entity.Van [main] Van 2 connected and has 2 products
+2021-01-23 17:51:52,386 INFO  training.task.model.entity.Van [main] Van 2 unloaded
+2021-01-23 17:51:52,386 INFO  training.task.model.entity.Van [main] Van 2 disconnected
+2021-01-23 17:51:52,387 INFO  training.task.model.entity.Van [main] Van 2 has 0 products now
+2021-01-23 17:51:52,387 INFO  training.task.model.entity.LogisticBase [main] 3 id 
+2021-01-23 17:51:52,387 INFO  training.task.model.entity.Van [main] Van 3 connected and has 8 products
+2021-01-23 17:51:52,388 INFO  training.task.model.entity.Van [main] Van 3 unloaded
+2021-01-23 17:51:52,388 INFO  training.task.model.entity.Van [main] Van 3 disconnected
+2021-01-23 17:51:52,388 INFO  training.task.model.entity.Van [main] Van 3 has 0 products now
+2021-01-23 17:51:52,389 INFO  training.task.model.entity.LogisticBase [main] 4 id 
+2021-01-23 17:51:52,389 INFO  training.task.model.entity.Van [main] Van 4 connected and has 2 products
+2021-01-23 17:51:52,389 INFO  training.task.model.entity.Van [main] Van 4 unloaded
+2021-01-23 17:51:52,390 INFO  training.task.model.entity.Van [main] Van 4 disconnected
+2021-01-23 17:51:52,390 INFO  training.task.model.entity.Van [main] Van 4 has 0 products now
+2021-01-23 17:51:52,390 INFO  training.task.model.entity.LogisticBase [main] 5 id 
+2021-01-23 17:51:52,390 INFO  training.task.model.entity.Van [main] Van 5 connected and has 5 products
+2021-01-23 17:51:52,391 INFO  training.task.model.entity.Van [main] Van 5 unloaded

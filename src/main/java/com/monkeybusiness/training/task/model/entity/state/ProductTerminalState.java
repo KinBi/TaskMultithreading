@@ -12,10 +12,6 @@ public interface ProductTerminalState {
     LOGGER.log(Level.WARN, "Sore no");
   }
 
-  default void loadVan(Van van) {
-    LOGGER.log(Level.WARN, "Sore no");
-  }
-
   default void unloadVan(Van van) {
     LOGGER.log(Level.WARN, "Sore no");
   }

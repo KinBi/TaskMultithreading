@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Van extends Thread {
   private static final Logger LOGGER = LogManager.getLogger();
-  public static int PERISHABLE_VAN_PRIORITY = 7;
   private long vanId = IdGenerator.getVanId();
   private int productCount;
   private boolean perishable;
@@ -28,7 +27,7 @@ public class Van extends Thread {
   @Override
   public void run() {
     if (perishable) {
-      setPriority(PERISHABLE_VAN_PRIORITY);
+      setPriority(Thread.MAX_PRIORITY);
     }
     this.setState(ConnectState.getInstance());
     state.connectVan(this);

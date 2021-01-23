@@ -4,40 +4,46 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.*;
-import java.util.concurrent.locks.Condition;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class LogisticBase {
   private static final Logger LOGGER = LogManager.getLogger();
-  public static int TERMINAL_AMOUNT = 3;
-  private static final LogisticBase instance = new LogisticBase();
-  private ArrayList<ProductTerminal> productTerminalList = new ArrayList<>();
-  private Deque<ProductTerminal> freeTerminalDeque = new ArrayDeque<>();
-  private Lock lock = new ReentrantLock();
-  private Condition isFree = lock.newCondition();
+  public static final int TERMINAL_AMOUNT = 3;
+  private static AtomicBoolean instanceCreated = new AtomicBoolean();
+  private static Lock lock = new ReentrantLock(true);
+  private static LogisticBase instance;
+  private List<ProductTerminal> productTerminalList = new ArrayList<>();
 
   private LogisticBase() {
     for (int i = 0; i < TERMINAL_AMOUNT; i++) {
-      freeTerminalDeque.add(new ProductTerminal());
+      productTerminalList.add(new ProductTerminal());
     }
+    instanceCreated.set(true);
   }
 
   public static LogisticBase getInstance() {
+    if (!instanceCreated.get()) {
+      lock.lock();
+      try {
+        if (instance == null) {
+          instance = new LogisticBase();
+        }
+      } finally {
+        lock.unlock();
+      }
+    }
     return instance;
-  }
-
-  public boolean isTerminalAvailable() {
-    boolean isAvailable = ((productTerminalList.size() < TERMINAL_AMOUNT) && freeTerminalDeque.isEmpty());
-    return isAvailable;
   }
 
   public void connectVan(Van van) {
     try {
-      lock.tryLock();
-      if (isTerminalAvailable()) {
-        ProductTerminal terminal = freeTerminalDeque.poll();
-        productTerminalList.add(terminal);
+      LOGGER.info("{} id ",van.getVanId());
+      lock.lock();
+      Optional<ProductTerminal> terminalOptional = findFreeTerminal();
+      if (terminalOptional.isPresent()) {
+        ProductTerminal terminal = terminalOptional.get();
         terminal.setVan(van);
       }
       lock.lock();
@@ -46,12 +52,9 @@ public class LogisticBase {
     }
   }
 
-//  public void loadVan(Van van) {
-//  }
-
   public void unloadVan(Van van) {
     try {
-      lock.tryLock();
+      lock.lock();
       van.setProductCount(0);
     } finally {
       lock.unlock();
@@ -60,30 +63,33 @@ public class LogisticBase {
 
   public void disconnectVan(Van van) {
     try {
-      lock.tryLock();
-      Optional<ProductTerminal> terminalOptional = getTerminalWithCurrentVan(van);
+      lock.lock();
+      Optional<ProductTerminal> terminalOptional = findTerminalWithCurrentVan(van);
       if (terminalOptional.isPresent()) {
         ProductTerminal terminal = terminalOptional.get();
         terminal.setVan(null);
-        productTerminalList.remove(terminal);
-        freeTerminalDeque.add(terminal);
       }
-      isFree.signal();
     } finally {
       lock.unlock();
     }
   }
 
-  public Optional<ProductTerminal> getTerminalWithCurrentVan(Van van) {
-    Optional<ProductTerminal> result = Optional.empty();
+  public Optional<ProductTerminal> findTerminalWithCurrentVan(Van van) {
+    Optional<ProductTerminal> terminalOptional = Optional.empty();
     int index = 0;
     while (index < productTerminalList.size()) {
-      if (productTerminalList.get(index).getVan().equals(van)) {
-        result = Optional.of(productTerminalList.get(index));
+      ProductTerminal terminal = productTerminalList.get(index);
+      if (terminal.getVan() == van || terminal.getVan().equals(van)) {
+        terminalOptional = Optional.of(terminal);
         break;
       }
     }
-    return result;
+    return terminalOptional;
+  }
+
+  public Optional<ProductTerminal> findFreeTerminal() {
+    Optional<ProductTerminal> terminalOptional = findTerminalWithCurrentVan(null);
+    return terminalOptional;
   }
 
   @Override

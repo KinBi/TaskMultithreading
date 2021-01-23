@@ -1,0 +1,30 @@
+2021-01-23 17:51:52,391 INFO  training.task.model.entity.Van [main] Van 5 disconnected
+2021-01-23 17:51:52,402 INFO  training.task.model.entity.Van [main] Van 5 has 0 products now
+2021-01-23 17:51:52,402 INFO  training.task.model.entity.LogisticBase [main] 6 id 
+2021-01-23 17:51:52,402 INFO  training.task.model.entity.Van [main] Van 6 connected and has 7 products
+2021-01-23 17:51:52,403 INFO  training.task.model.entity.Van [main] Van 6 unloaded
+2021-01-23 17:51:52,403 INFO  training.task.model.entity.Van [main] Van 6 disconnected
+2021-01-23 17:51:52,403 INFO  training.task.model.entity.Van [main] Van 6 has 0 products now
+2021-01-23 17:51:52,405 INFO  training.task.model.entity.LogisticBase [main] 7 id 
+2021-01-23 17:51:52,405 INFO  training.task.model.entity.Van [main] Van 7 connected and has 9 products
+2021-01-23 17:51:52,406 INFO  training.task.model.entity.Van [main] Van 7 unloaded
+2021-01-23 17:51:52,406 INFO  training.task.model.entity.Van [main] Van 7 disconnected
+2021-01-23 17:51:52,406 INFO  training.task.model.entity.Van [main] Van 7 has 0 products now
+2021-01-23 17:51:52,406 INFO  training.task.model.entity.LogisticBase [main] 8 id 
+2021-01-23 17:51:52,407 INFO  training.task.model.entity.Van [main] Van 8 connected and has 1 products
+2021-01-23 17:51:52,407 INFO  training.task.model.entity.Van [main] Van 8 unloaded
+2021-01-23 17:51:52,407 INFO  training.task.model.entity.Van [main] Van 8 disconnected
+2021-01-23 17:51:52,407 INFO  training.task.model.entity.Van [main] Van 8 has 0 products now
+2021-01-23 18:45:29,466 ERROR training.task.util.reader.DataReader [main] java.nio.file.NoSuchFileException: \data\data.txt
+2021-01-23 18:47:18,339 INFO  training.task.model.entity.LogisticBase [main] 0 id 
+2021-01-23 18:47:18,341 INFO  training.task.model.entity.Van [main] Van 0 connected and has 1 products
+2021-01-23 18:47:20,342 INFO  training.task.model.entity.Van [main] Van 0 unloaded
+2021-01-23 18:47:20,342 INFO  training.task.model.entity.Van [main] Van 0 disconnected
+2021-01-23 18:47:20,342 INFO  training.task.model.entity.Van [main] Van 0 has 0 products now
+2021-01-23 18:47:20,342 INFO  training.task.model.entity.LogisticBase [main] 1 id 
+2021-01-23 18:47:20,342 INFO  training.task.model.entity.Van [main] Van 1 connected and has 2 products
+2021-01-23 18:47:22,343 INFO  training.task.model.entity.Van [main] Van 1 unloaded
+2021-01-23 18:47:22,343 INFO  training.task.model.entity.Van [main] Van 1 disconnected
+2021-01-23 18:47:22,343 INFO  training.task.model.entity.Van [main] Van 1 has 0 products now
+2021-01-23 18:47:22,343 INFO  training.task.model.entity.LogisticBase [main] 2 id 
+2021-01-23 18:47:22,344 INFO  training.task.model.entity.Van [main] Van 2 connected and has 7 products
