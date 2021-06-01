@@ -1,0 +1,46 @@
+2021-05-31 14:31:21,061 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-05-31 14:31:21,060 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-05-31 14:31:21,069 INFO  training.task.model.entity.Van [Thread-5] Van 5 connected and has 8 products
+2021-05-31 14:31:21,060 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-05-31 14:31:23,075 INFO  training.task.model.entity.Van [Thread-5] Van 5 unloaded
+2021-05-31 14:31:23,076 INFO  training.task.model.entity.Van [Thread-5] Van 5 disconnected
+2021-05-31 14:31:23,076 INFO  training.task.model.entity.Van [Thread-5] Van 5 has 0 products now
+2021-05-31 14:31:50,024 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-05-31 14:31:50,024 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-05-31 14:31:50,023 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-05-31 14:31:50,024 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-05-31 14:31:50,024 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-05-31 14:31:50,024 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-05-31 14:31:50,023 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-05-31 14:31:50,024 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-05-31 14:31:50,032 INFO  training.task.model.entity.Van [Thread-5] Van 5 connected and has 8 products
+2021-05-31 14:31:50,033 INFO  training.task.model.entity.Van [Thread-5] Van 5 unloaded
+2021-05-31 14:31:50,033 INFO  training.task.model.entity.Van [Thread-5] Van 5 disconnected
+2021-05-31 14:31:50,033 INFO  training.task.model.entity.Van [Thread-5] Van 5 has 0 products now
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-05-31 14:37:30,064 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-05-31 14:37:30,070 INFO  training.task.model.entity.Van [Thread-3] Van 3 connected and has 5 products
+2021-05-31 14:38:41,293 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-05-31 14:38:41,293 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-05-31 14:38:41,294 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-05-31 14:38:41,294 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-05-31 14:38:41,293 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-05-31 14:38:41,293 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-05-31 14:38:41,293 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-05-31 14:38:41,293 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-05-31 14:38:41,306 INFO  training.task.model.entity.Van [Thread-2] Van 2 connected and has 7 products
+2021-05-31 14:38:53,518 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-05-31 14:38:53,518 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-05-31 14:38:53,518 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-05-31 14:38:53,518 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-05-31 14:38:53,518 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-05-31 14:38:53,517 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-05-31 14:38:53,517 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-05-31 14:38:53,518 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-05-31 14:38:54,019 INFO  training.task.model.entity.Van [Thread-3] Van 3 connected and has 5 products

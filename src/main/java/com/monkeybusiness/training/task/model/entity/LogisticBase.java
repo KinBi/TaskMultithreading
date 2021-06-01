@@ -1,26 +1,28 @@
 package com.monkeybusiness.training.task.model.entity;
 
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class LogisticBase {
   private static final Logger LOGGER = LogManager.getLogger();
-  public static final int TERMINAL_AMOUNT = 3;
+  private static final int TERMINAL_AMOUNT = 3;
   private static AtomicBoolean instanceCreated = new AtomicBoolean();
-  private static Lock lock = new ReentrantLock(true);
+  private static Lock lock = new ReentrantLock();
   private static LogisticBase instance;
-  private List<ProductTerminal> productTerminalList = new ArrayList<>();
+  private static Deque<ProductTerminal> productTerminalList = new ArrayDeque<>();
 
   private LogisticBase() {
     for (int i = 0; i < TERMINAL_AMOUNT; i++) {
       productTerminalList.add(new ProductTerminal());
     }
-    instanceCreated.set(true);
   }
 
   public static LogisticBase getInstance() {
@@ -30,6 +32,7 @@ public class LogisticBase {
         if (instance == null) {
           instance = new LogisticBase();
         }
+        instanceCreated.set(true);
       } finally {
         lock.unlock();
       }
@@ -39,52 +42,37 @@ public class LogisticBase {
 
   public void connectVan(Van van) {
     try {
-      LOGGER.info("{} id ",van.getVanId());
+      LOGGER.info("{} id ", van.getVanId());
       lock.lock();
       Optional<ProductTerminal> terminalOptional = findFreeTerminal();
-      if (terminalOptional.isPresent()) {
-        ProductTerminal terminal = terminalOptional.get();
-        terminal.setVan(van);
+      while (!terminalOptional.isPresent()) {
+        try {
+          TimeUnit.SECONDS.sleep(1);
+          terminalOptional = findFreeTerminal();
+        } catch (InterruptedException e) {
+          LOGGER.log(Level.ERROR, e);
+        }
       }
-      lock.lock();
+      ProductTerminal terminal = terminalOptional.get();
+      terminal.setVan(van);
     } finally {
       lock.unlock();
     }
   }
 
   public void unloadVan(Van van) {
-    try {
-      lock.lock();
-      van.setProductCount(0);
-    } finally {
-      lock.unlock();
-    }
+    van.setProductCount(0);
   }
 
   public void disconnectVan(Van van) {
-    try {
-      lock.lock();
-      Optional<ProductTerminal> terminalOptional = findTerminalWithCurrentVan(van);
-      if (terminalOptional.isPresent()) {
-        ProductTerminal terminal = terminalOptional.get();
-        terminal.setVan(null);
-      }
-    } finally {
-      lock.unlock();
-    }
+    Optional<ProductTerminal> terminalOptional = findTerminalWithCurrentVan(van);
+
+    ProductTerminal terminal = terminalOptional.get();
+    terminal.setVan(null);
   }
 
   public Optional<ProductTerminal> findTerminalWithCurrentVan(Van van) {
-    Optional<ProductTerminal> terminalOptional = Optional.empty();
-    int index = 0;
-    while (index < productTerminalList.size()) {
-      ProductTerminal terminal = productTerminalList.get(index);
-      if (terminal.getVan() == van || terminal.getVan().equals(van)) {
-        terminalOptional = Optional.of(terminal);
-        break;
-      }
-    }
-    return terminalOptional;
+    return productTerminalList.stream().filter(productTerminal -> productTerminal.getVan() == van).findAny();
   }
 
   public Optional<ProductTerminal> findFreeTerminal() {

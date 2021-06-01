@@ -1,0 +1,181 @@
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:09:53,667 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:09:53,674 INFO  training.task.model.entity.Van [Thread-7] Van 7 connected and has 4 products
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:11:44,918 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:11:44,926 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:12:33,968 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:12:33,974 INFO  training.task.model.entity.Van [Thread-1] Van 1 connected and has 2 products
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:16:19,270 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:16:19,276 INFO  training.task.model.entity.Van [Thread-4] Van 4 connected and has 2 products
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:18:35,104 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:18:35,111 INFO  training.task.model.entity.Van [Thread-1] Van 1 connected and has 2 products
+2021-06-01 14:19:41,477 INFO  training.task.model.entity.LogisticBase [Thread-2] Trying to connect 2 id 
+2021-06-01 14:19:41,476 INFO  training.task.model.entity.LogisticBase [Thread-7] Trying to connect 7 id 
+2021-06-01 14:19:41,477 INFO  training.task.model.entity.LogisticBase [Thread-1] Trying to connect 1 id 
+2021-06-01 14:19:41,477 INFO  training.task.model.entity.LogisticBase [Thread-6] Trying to connect 6 id 
+2021-06-01 14:19:41,477 INFO  training.task.model.entity.LogisticBase [Thread-0] Trying to connect 0 id 
+2021-06-01 14:19:41,476 INFO  training.task.model.entity.LogisticBase [Thread-3] Trying to connect 3 id 
+2021-06-01 14:19:41,476 INFO  training.task.model.entity.LogisticBase [Thread-5] Trying to connect 5 id 
+2021-06-01 14:19:41,476 INFO  training.task.model.entity.LogisticBase [Thread-4] Trying to connect 4 id 
+2021-06-01 14:19:41,482 INFO  training.task.model.entity.LogisticBase [Thread-7] Connected 7 id 
+2021-06-01 14:19:41,483 INFO  training.task.model.entity.Van [Thread-7] Van 7 connected and has 4 products
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-5] Trying to connect 5 id 
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-7] Trying to connect 7 id 
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-4] Trying to connect 4 id 
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-2] Trying to connect 2 id 
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-3] Trying to connect 3 id 
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-0] Trying to connect 0 id 
+2021-06-01 14:20:12,057 INFO  training.task.model.entity.LogisticBase [Thread-1] Trying to connect 1 id 
+2021-06-01 14:20:12,056 INFO  training.task.model.entity.LogisticBase [Thread-6] Trying to connect 6 id 
+2021-06-01 14:20:12,065 INFO  training.task.model.entity.Van [Thread-5] Van 5 connected and has 8 products
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-3] Trying to connect 3 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-2] Trying to connect 2 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-7] Trying to connect 7 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-5] Trying to connect 5 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-0] Trying to connect 0 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-1] Trying to connect 1 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-6] Trying to connect 6 id 
+2021-06-01 14:21:01,334 INFO  training.task.model.entity.LogisticBase [Thread-4] Trying to connect 4 id 
+2021-06-01 14:21:01,341 INFO  training.task.model.entity.Van [Thread-2] Van 2 connected and has 7 products
+2021-06-01 14:21:17,414 INFO  training.task.model.entity.LogisticBase [Thread-0] Trying to connect 0 id 
+2021-06-01 14:21:17,418 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 14:21:17,419 INFO  training.task.model.entity.Van [Thread-0] Van 0 unloaded
+2021-06-01 14:21:17,419 INFO  training.task.model.entity.Van [Thread-0] Van 0 disconnected
+2021-06-01 14:21:17,419 INFO  training.task.model.entity.Van [Thread-0] Van 0 has 0 products now
+2021-06-01 14:21:25,442 INFO  training.task.model.entity.LogisticBase [Thread-0] Trying to connect 0 id 
+2021-06-01 14:21:25,442 INFO  training.task.model.entity.LogisticBase [Thread-1] Trying to connect 1 id 
+2021-06-01 14:21:25,449 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 14:21:35,827 INFO  training.task.model.entity.LogisticBase [Thread-0] Trying to connect 0 id 
+2021-06-01 14:21:35,831 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 14:21:35,832 INFO  training.task.model.entity.Van [Thread-0] Van 0 unloaded
+2021-06-01 14:21:35,832 INFO  training.task.model.entity.Van [Thread-0] Van 0 disconnected
+2021-06-01 14:21:35,832 INFO  training.task.model.entity.Van [Thread-0] Van 0 has 0 products now
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:24:01,670 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:24:01,677 INFO  training.task.model.entity.Van [Thread-3] Van 3 connected and has 5 products
+2021-06-01 14:24:01,678 INFO  training.task.model.entity.Van [Thread-3] Van 3 unloaded
+2021-06-01 14:24:01,678 INFO  training.task.model.entity.Van [Thread-3] Van 3 disconnected
+2021-06-01 14:24:01,678 INFO  training.task.model.entity.Van [Thread-3] Van 3 has 0 products now
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:24:26,580 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:24:26,581 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:24:26,587 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 14:24:26,587 INFO  training.task.model.entity.Van [Thread-0] Van 0 unloaded
+2021-06-01 14:24:26,587 INFO  training.task.model.entity.Van [Thread-0] Van 0 disconnected
+2021-06-01 14:24:26,588 INFO  training.task.model.entity.Van [Thread-0] Van 0 has 0 products now
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:25:09,417 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:25:09,423 INFO  training.task.model.entity.Van [Thread-3] Van 3 connected and has 5 products
+2021-06-01 14:25:43,502 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:25:43,505 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:25:43,506 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 14:25:58,357 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:26:06,709 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:26:12,655 INFO  training.task.model.entity.Van [Thread-2] Van 2 connected and has 7 products
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:27:36,897 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:27:48,006 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 14:27:48,005 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 14:27:48,005 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 14:27:48,006 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 14:27:48,005 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 14:27:48,005 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 14:27:48,005 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 14:27:48,006 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-2] 2 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-5] 5 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-0] 0 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-3] 3 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-1] 1 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-7] 7 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-6] 6 id 
+2021-06-01 16:21:35,842 INFO  training.task.model.entity.LogisticBase [Thread-4] 4 id 
+2021-06-01 16:21:35,849 INFO  training.task.model.entity.Van [Thread-2] Van 2 connected and has 7 products
+2021-06-01 16:21:35,849 INFO  training.task.model.entity.Van [Thread-3] Van 3 connected and has 5 products
+2021-06-01 16:21:35,849 INFO  training.task.model.entity.Van [Thread-6] Van 6 connected and has 7 products
+2021-06-01 16:21:36,851 INFO  training.task.model.entity.Van [Thread-6] Van 6 unloaded
+2021-06-01 16:21:36,851 INFO  training.task.model.entity.Van [Thread-2] Van 2 unloaded
+2021-06-01 16:21:36,851 INFO  training.task.model.entity.Van [Thread-3] Van 3 unloaded
+2021-06-01 16:21:36,851 INFO  training.task.model.entity.Van [Thread-6] Van 6 disconnected
+2021-06-01 16:21:36,852 INFO  training.task.model.entity.Van [Thread-2] Van 2 disconnected
+2021-06-01 16:21:36,852 INFO  training.task.model.entity.Van [Thread-3] Van 3 disconnected
+2021-06-01 16:21:36,852 INFO  training.task.model.entity.Van [Thread-6] Van 6 has 0 products now
+2021-06-01 16:21:36,852 INFO  training.task.model.entity.Van [Thread-2] Van 2 has 0 products now
+2021-06-01 16:21:36,852 INFO  training.task.model.entity.Van [Thread-3] Van 3 has 0 products now
+2021-06-01 16:21:37,850 INFO  training.task.model.entity.Van [Thread-1] Van 1 connected and has 2 products
+2021-06-01 16:21:37,850 INFO  training.task.model.entity.Van [Thread-0] Van 0 connected and has 1 products
+2021-06-01 16:21:37,850 INFO  training.task.model.entity.Van [Thread-5] Van 5 connected and has 8 products
+2021-06-01 16:21:38,850 INFO  training.task.model.entity.Van [Thread-1] Van 1 unloaded
+2021-06-01 16:21:38,850 INFO  training.task.model.entity.Van [Thread-1] Van 1 disconnected
+2021-06-01 16:21:38,851 INFO  training.task.model.entity.Van [Thread-5] Van 5 unloaded
+2021-06-01 16:21:38,851 INFO  training.task.model.entity.Van [Thread-1] Van 1 has 0 products now
+2021-06-01 16:21:38,851 INFO  training.task.model.entity.Van [Thread-0] Van 0 unloaded
+2021-06-01 16:21:38,851 INFO  training.task.model.entity.Van [Thread-5] Van 5 disconnected
+2021-06-01 16:21:38,853 INFO  training.task.model.entity.Van [Thread-0] Van 0 disconnected
+2021-06-01 16:21:38,853 INFO  training.task.model.entity.Van [Thread-5] Van 5 has 0 products now
+2021-06-01 16:21:38,853 INFO  training.task.model.entity.Van [Thread-0] Van 0 has 0 products now
+2021-06-01 16:21:39,851 INFO  training.task.model.entity.Van [Thread-7] Van 7 connected and has 4 products
+2021-06-01 16:21:39,851 INFO  training.task.model.entity.Van [Thread-4] Van 4 connected and has 2 products
+2021-06-01 16:21:40,852 INFO  training.task.model.entity.Van [Thread-4] Van 4 unloaded
+2021-06-01 16:21:40,852 INFO  training.task.model.entity.Van [Thread-7] Van 7 unloaded
+2021-06-01 16:21:40,852 INFO  training.task.model.entity.Van [Thread-4] Van 4 disconnected
+2021-06-01 16:21:40,853 INFO  training.task.model.entity.Van [Thread-7] Van 7 disconnected
+2021-06-01 16:21:40,853 INFO  training.task.model.entity.Van [Thread-4] Van 4 has 0 products now
+2021-06-01 16:21:40,853 INFO  training.task.model.entity.Van [Thread-7] Van 7 has 0 products now

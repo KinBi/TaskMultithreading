@@ -6,6 +6,7 @@ import com.monkeybusiness.training.task.util.creator.VanCreator;
 import com.monkeybusiness.training.task.util.parser.Parser;
 import com.monkeybusiness.training.task.util.reader.DataReader;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -22,7 +23,7 @@ public class Main {
     VanCreator creator = new VanCreator();
     List<Van> vanList = creator.create(list);
     for (Van van : vanList) {
-      van.run();
+     van.start();
     }
   }
 }

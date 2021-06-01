@@ -34,7 +34,7 @@ public class Van extends Thread {
     LOGGER.log(Level.INFO, "Van {} connected and has {} products", vanId, productCount);
     state.unloadVan(this);
     try {
-      TimeUnit.SECONDS.sleep(2);
+      TimeUnit.SECONDS.sleep(1);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
